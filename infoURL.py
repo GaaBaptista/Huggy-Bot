@@ -7,7 +7,7 @@ arquivo = open('URL.txt', 'w')
 
 headers = {
   'Content-Type': 'application/json',
-  'Authorization': 'Bearer c9eafb5a968c067976231d4baf5ca7bc'
+  'Authorization': 'Bearer {{TOKEN}}'
 }
 r = requests.get('https://api.huggy.io/v2/contacts/contact_id', headers=headers) # https://api.huggy.io/v2/chats
 
